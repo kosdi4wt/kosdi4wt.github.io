@@ -59,3 +59,42 @@ body {
     right: 20%;
     top: 25%;
  }
+
+.s1 .main{
+    position: absolute;
+    top:32%;
+}
+.s1 .main img:nth-of-type(1){
+    width: 40%;
+}
+.s1 .main img:nth-of-type(2){
+    width: 80%;
+    margin-bottom: 21px;
+}
+.s1 .main .text{
+    color: #ffffff;
+    background:url("../img/9.png");
+    background-size: cover;
+    width: 56%;
+    top: 357px;
+    margin-left: 83px;
+    font-family: cursive;
+    font-weight: bold;
+    line-height: 26px;
+}
+.footer{
+    padding-top: 125%;
+}
+.footer h2.p{
+    color:#01b7a0;
+    font-weight: bold;
+}
+.footer img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.footer img:nth-of-type(1){
+    left: 14%;
+}
