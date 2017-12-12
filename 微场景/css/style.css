@@ -146,9 +146,7 @@ body {
 }
 .s2 h2{
     padding-top: 70px;
-    color: #01f6cb;
-
-    
+    color: #01f6cb; 
 }
 .s2 h2::before{
     background: url(../img/left.png);
@@ -169,6 +167,11 @@ body {
     height: 39px;
     display: inline-block;  /*行内块级元素*/
     position: absolute;
+}
+.s2 h5{
+    color: #7ce0cf;
+    letter-spacing: 4px;
+    font-size: 5px;
 }
 .s2 .s2bg{
     background: url(../img/zhong.png);
@@ -199,9 +202,39 @@ body {
     font-family: cursive;
     line-height: 27px;
     position: absolute;
-    top: 488px;
+    top: 500px;
     left: 95px;
 }
 .s2 .footer{
     animation-iteration-count: infinite;
+}
+
+
+.s3 {
+    background: url(../img/bj.png);
+    height: 100%;
+} 
+.s3 h2{
+    color: #0bf3c9;
+    padding-top: 70px;
+}
+.s3 h2::before{
+    background: url(../img/left.png);
+    background-size: 100% 100%;
+    content: "";
+    width: 80px;
+    height: 39px;
+    display: inline-block;
+    position: absolute;
+    top:68px;
+    left: 54px
+} 
+.s3 h2::after{
+    background: url(../img/right.png);
+    background-size: 100% 100%;
+    content: ""; 
+    width: 80px;
+    height: 39px;
+    display: inline-block;  /*行内块级元素*/
+    position: absolute;
 }
