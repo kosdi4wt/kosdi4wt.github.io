@@ -311,6 +311,39 @@ body {
 }
 
 
+.s4 {
+    background: url(../img/bj.png);
+    height: 100%;
+} 
+.s4 h2{
+    color: #0bf3c9;
+    padding-top: 70px;
+}
+.s4 h2::before{
+    background: url(../img/left.png);
+    background-size: 100% 100%;
+    content: "";
+    width: 80px;
+    height: 39px;
+    display: inline-block;
+    position: absolute;
+    top:68px;
+    left: 54px
+} 
+.s4 h2::after{
+    background: url(../img/right.png);
+    background-size: 100% 100%;
+    content: ""; 
+    width: 80px;
+    height: 39px;
+    display: inline-block;  /*行内块级元素*/
+    position: absolute;
+}
+.s4 h5{
+    color: #7ce0cf;
+    letter-spacing: 4px;
+    font-size: 5px;
+}
 .s4 .container{
     background: url(../img/zhong.png);
     background-size: 100% 100%;
@@ -392,7 +425,15 @@ body {
     height: 15px;
     background-size: cover;
 }
-
+.s4 .container p{
+    color: #00d9b7;
+}
+.s4 .container .bai{
+    color: #f1f4f9;
+}
+.s4 .container .lan{
+    color: #00d9b7;
+}
 
 .s4 .container ul .e4 img{
     display: inline-block;
@@ -443,10 +484,11 @@ body {
     padding-left: 15px;
     padding-top: 15px;
     color: #048e7f;
+    text-align: center;
 }
 .s4 .footer{
     animation-iteration-count: infinite;
-}
+}  
 
 
 
