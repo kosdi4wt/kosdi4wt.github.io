@@ -3,6 +3,12 @@
     padding: 0px;
     box-sizing: border-box
 }
+.clearfix:before,
+.clearfix:after{
+	content:" ";
+	display:table;
+	clear:both;
+	}
 html, body {
     position: relative;
     height: 100%;
@@ -118,7 +124,6 @@ body {
     line-height: 26px;
 }
 .footer{
-    
     padding-top: 125%;
 }
 .footer h2{
@@ -304,18 +309,145 @@ body {
 .s3 .footer{
     animation-iteration-count: infinite;
 }
+
+
+.s4 .container{
+    background: url(../img/zhong.png);
+    background-size: 100% 100%;
+    width: 320px;
+    height: 455px;
+    position: absolute;
+    top: 145px;
+    left: 45px;
+    text-align: left;
+}
+.s4 .container .nian1,{
+    width: 80px;
+    height: 25px;
+}
+.s4 .container .nian1{
+    float: left;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.s4 .container .nian2{
+    float: right;
+    padding-right: 50px;
+    padding-top: 30px;
+}
 .s4 .container .nian1 span{
     background: url(../img/dian.png);
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background-size:100% 100%;
     display: inline-block;
+    padding-top: 5px;
 }
-
 .s4 .container .nian2 span{
     background: url(../img/dian.png);
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background-size:100% 100%;
     display: inline-block;
 }
+.s4 .container .nian1 p{
+    display: inline-block;
+    font-size: 22px;
+}
+.s4 .container .nian2 p{
+    display: inline-block;
+    font-size: 22px;
+}
+.s4 .container ul li {
+    list-style: none;
+}
+.s4 .container ul .e1{
+    padding-top: 45px;
+}
+.s4 .container ul .e4{
+    padding-top: 10px;
+}
+.s4 .container ul .e7{
+    padding-top: 10px;
+}
+.s4 .container ul .e1 img{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+}
+.s4 .container ul .e1 p{
+    display: inline-block;
+}
+.s4 .container ul .e1 span{
+    display: inline-block;
+}
+.s4 .container ul .e2 img{
+    width: 260px;
+    height: 15px;
+    background-size: cover;
+}
+.s4 .container ul .e3 img{
+    width: 130px;
+    height: 15px;
+    background-size: cover;
+}
+
+
+.s4 .container ul .e4 img{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+}
+.s4 .container ul .e4 p{
+    display: inline-block;
+}
+.s4 .container ul .e4 span{
+    display: inline-block;
+}
+.s4 .container ul .e5 img{
+    width: 240px;
+    height: 15px;
+    background-size: cover;
+}
+.s4 .container ul .e6 img{
+    width: 125px;
+    height: 15px;
+    background-size: cover;
+}
+.s4 .container ul .e7 img{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+}
+.s4 .container ul .e7 p{
+    display: inline-block;
+}
+.s4 .container ul .e7 span{
+    display: inline-block;
+}
+.s4 .container ul .e8 img{
+    width: 215px;
+    height: 15px;
+    background-size: cover;
+}
+.s4 .container ul .e9 img{
+    width: 100px;
+    height: 15px;
+    background-size: cover;
+}
+.s4 .container .qq{
+    font-size: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    color: #048e7f;
+}
+.s4 .footer{
+    animation-iteration-count: infinite;
+}
+
+
+
+
