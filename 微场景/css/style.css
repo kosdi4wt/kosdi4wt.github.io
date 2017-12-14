@@ -491,5 +491,119 @@ body {
 }  
 
 
+.s5 {
+    background: url(../img/bj.png);
+    height: 100%;
+} 
+.s5 h2{
+    color: #0bf3c9;
+    padding-top: 70px;
+}
+.s5 h2::before{
+    background: url(../img/left.png);
+    background-size: 100% 100%;
+    content: "";
+    width: 80px;
+    height: 39px;
+    display: inline-block;
+    position: absolute;
+    top:68px;
+    left: 54px
+} 
+.s5 h2::after{
+    background: url(../img/right.png);
+    background-size: 100% 100%;
+    content: ""; 
+    width: 80px;
+    height: 39px;
+    display: inline-block;  /*行内块级元素*/
+    position: absolute;
+}
+.s5 h5{
+    color: #7ce0cf;
+    letter-spacing: 4px;
+    font-size: 5px;
+}
+.s5 .footer{
+    animation-iteration-count: infinite;
+}  
 
 
+
+.s6 {
+    background: url(../img/bj.png);
+    height: 100%;
+} 
+.s6 h2{
+    color: #0bf3c9;
+    padding-top: 70px;
+}
+.s6 h2::before{
+    background: url(../img/left.png);
+    background-size: 100% 100%;
+    content: "";
+    width: 80px;
+    height: 39px;
+    display: inline-block;
+    position: absolute;
+    top:68px;
+    left: 54px
+} 
+.s6 h2::after{
+    background: url(../img/right.png);
+    background-size: 100% 100%;
+    content: ""; 
+    width: 80px;
+    height: 39px;
+    display: inline-block;  /*行内块级元素*/
+    position: absolute;
+}
+.s6 h5{
+    color: #7ce0cf;
+    letter-spacing: 4px;
+    font-size: 5px;
+}
+.s6 .footer{
+    animation-iteration-count: infinite;
+}  
+
+
+
+
+
+.s7 {
+    background: url(../img/bj.png);
+    height: 100%;
+} 
+.s7 h2{
+    color: #0bf3c9;
+    padding-top: 70px;
+}
+.s7 h2::before{
+    background: url(../img/left.png);
+    background-size: 100% 100%;
+    content: "";
+    width: 80px;
+    height: 39px;
+    display: inline-block;
+    position: absolute;
+    top:68px;
+    left: 54px
+} 
+.s7 h2::after{
+    background: url(../img/right.png);
+    background-size: 100% 100%;
+    content: ""; 
+    width: 80px;
+    height: 39px;
+    display: inline-block;  /*行内块级元素*/
+    position: absolute;
+}
+.s7 h5{
+    color: #7ce0cf;
+    letter-spacing: 4px;
+    font-size: 5px;
+}
+.s7 .footer{
+    animation-iteration-count: infinite;
+}  
