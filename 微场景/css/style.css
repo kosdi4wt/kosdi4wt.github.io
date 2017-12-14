@@ -208,8 +208,6 @@ body {
 .s2 .footer{
     animation-iteration-count: infinite;
 }
-
-
 .s3 {
     background: url(../img/bj.png);
     height: 100%;
@@ -237,4 +235,87 @@ body {
     height: 39px;
     display: inline-block;  /*行内块级元素*/
     position: absolute;
+}
+.s3 h5{
+    color: #7ce0cf;
+    letter-spacing: 4px;
+    font-size: 5px;
+}
+.s3 .container .tu1,.tu2,.tu3,.tu4,.tu5,.tu6{
+    background: url(../img/xiao.png);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    line-height: 56px;
+    color: #7ce0cf;
+    
+}
+.s3 .container .tu1{
+    position: absolute;
+    top: 170px;
+    left: 90px;
+}
+.s3 .container .tu2{
+    position: absolute;
+    top: 170px;
+    right: 90px;
+}
+.s3 .container .tu3{
+    position: absolute;
+    top: 290px;
+    right: 20px;
+}
+.s3 .container .tu4{
+    position: absolute;
+    top: 410px;
+    right: 90px;
+}
+.s3 .container .tu5{
+    position: absolute;
+    top: 410px;
+    left: 90px;
+}
+.s3 .container .tu6{
+    position: absolute;
+    top: 290px;
+    left: 20px;
+}
+.s3 .container .tu7{
+    background: url(../img/da.png);
+    background-size: cover;
+    width: 135px;
+    height: 135px;
+    position: absolute;
+    top: 255px;
+    left: 140px;
+    color: #7ce0cf;
+    line-height: 125px;
+}
+.s3 .container ul{
+    color: #7ce0cf;
+    position: absolute;
+    border-left: solid 3px  #7ce0cf;
+    text-indent:20px;
+    letter-spacing: 3px;
+    top: 500px;
+    left: 45px;
+    list-style: none;
+}
+.s3 .footer{
+    animation-iteration-count: infinite;
+}
+.s4 .container .nian1 span{
+    background: url(../img/dian.png);
+    width: 30px;
+    height: 30px;
+    background-size:100% 100%;
+    display: inline-block;
+}
+
+.s4 .container .nian2 span{
+    background: url(../img/dian.png);
+    width: 30px;
+    height: 30px;
+    background-size:100% 100%;
+    display: inline-block;
 }
