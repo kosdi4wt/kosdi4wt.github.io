@@ -62,7 +62,19 @@ body {
     left:auto;
     right: 47%;
     transform:rotateZ(-90deg);
+    animation-iteration-count: infinite;
+    animation: buttonext 1.5s infinite;
 }
+@keyframes buttonext{
+    0% {
+        top: auto;
+    }
+    100% {
+        top: 594px;
+        opacity: 0;
+    }
+}
+
 .s1{
     background: url("../img/bj.png");
     height: 100%;
@@ -185,6 +197,8 @@ body {
     margin: 0 auto;
     padding-left: 5px;
     padding-right: 5px;
+    margin-top: 55px;
+    height: 400px;
 }
 .s2 .s2bg .dw1, .dw2, .dw3{
     text-align: left;
@@ -207,8 +221,8 @@ body {
     font-family: cursive;
     line-height: 27px;
     position: absolute;
-    top: 500px;
-    left: 95px;
+    top: 560px;
+    left: 113px;
 }
 .s2 .footer{
     animation-iteration-count: infinite;
@@ -246,13 +260,14 @@ body {
     letter-spacing: 4px;
     font-size: 5px;
 }
-.s3 .container .tu1,.tu2,.tu3,.tu4,.tu5,.tu6{
+.s3 .container .tu1,.tu2,.tu3,.tu4,.tu5,.tu6,.tu7{
     background: url(../img/xiao.png);
     background-size: cover;
     width: 60px;
     height: 60px;
     line-height: 56px;
     color: #7ce0cf;
+    animation-iteration-count: infinite;
     
 }
 .s3 .container .tu1{
@@ -800,11 +815,15 @@ body {
     background-color: #00f2ca;
     margin-top: 15px;
 }
+.s7 .container .we4 input{
+    text-align: center;
+    font-size: 20px;
+}
 .s7 .container p{
     color:  #00f2ca;
 }
-.s7 .container w{
-    margin-top: 10px;
+.s7 .container .www{
+    margin-top: 15px;
 }
 
 .s7 .footer{
