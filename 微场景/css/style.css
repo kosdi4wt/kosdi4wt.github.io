@@ -527,9 +527,72 @@ body {
 .s5 .footer{
     animation-iteration-count: infinite;
 }  
-
-
-
+.s5 .container .tou1 ,.tou2 ,.tou3 ,.tou4{
+    background: url(../img/zhong.png);
+    background-size: 100% 100%;
+    width: 135px;
+    height: 175px;
+}
+.s5 .container .tou1{
+    float: left;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.s5 .container .tou2{
+    float: right;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+.s5 .container .tou3{
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.s5 .container .tou4{
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.s5 .container .tou1 img{
+    width: 105px;
+    height: 100px;
+    padding-top: 10px;
+}
+.s5 .container .tou2 img{
+    width: 105px;
+    height: 100px;
+    padding-top: 10px;
+}
+.s5 .container .tou3 img{
+    width: 105px;
+    height: 100px;
+    padding-top: 10px;
+}
+.s5 .container .tou4 img{
+    width: 105px;
+    height: 100px;
+    padding-top: 10px;
+}
+.s5 .container .to1 p{
+    color: #00cca8;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.s5 .container .to1 span{
+    color: #00cca8;
+    font-size: 20px;
+}
+.s5 .container .to2 p{
+    color: #00cca8;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.s5 .container .to2 span{
+    color: #00cca8;
+    font-size: 20px;
+}
 .s6 {
     background: url(../img/bj.png);
     height: 100%;
@@ -563,9 +626,113 @@ body {
     letter-spacing: 4px;
     font-size: 5px;
 }
+.s6 .container .dian1{
+    position: absolute;
+    top: 136px;
+    left: -1px;
+}
+.s6 .container .dian2{
+    position: absolute;
+    top: 292px;
+    left: -1px;
+}
+.s6 .container .dian3{
+    position: absolute;
+    top: 446px;
+    left: -1px;
+}
+.s6 .container .zhong{
+    text-align: left;
+    width: 360px;
+    height: 480px;
+    margin-left: 25px;
+    border-left: dashed 3px #7ce0cf;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+
+.s6 .container .zhong .zhong1 .tu{
+    background: url(../img/lan1.png);
+    background-size: 100% 100%;
+    display: inline-block ;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.s6 .container .zhong .ul1{
+    background: url(../img/touming.png);
+    background-size: 100% 100%;
+    width: 340px;
+    height: 100px;
+}
+.s6 .container .zhong .zhong1 qq{   
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.s6 .container .zhong .zhong1 .a2 p{
+    color: #7ce0cf;
+    padding-top: 5px;
+}
+.s6 .container .zhong .zhong1 .a2 p img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.s6 .container .zhong .zhong2 .tu{
+    background: url(../img/lan1.png);
+    background-size: 100% 100%;
+    display: inline-block ;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.s6 .container .zhong .zhong2 qq{   
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.s6 .container .zhong .zhong2 .a2 p{
+    color: #7ce0cf;
+    padding-top: 5px;
+}
+.s6 .container .zhong .zhong2 .a2 p img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.s6 .container .zhong .zhong3 .tu{
+    background: url(../img/lan1.png);
+    background-size: 100% 100%;
+    display: inline-block ;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.s6 .container .zhong .zhong3 qq{   
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+
+}
+.s6 .container .zhong .zhong3 .a2 p{
+    color: #7ce0cf;
+    padding-top: 5px;
+}
+.s6 .container .zhong .zhong3 .a2 p img{
+    width: 20px;
+    height: 20px;
+}
+
 .s6 .footer{
     animation-iteration-count: infinite;
 }  
+
+
+
+
 
 
 
@@ -604,6 +771,42 @@ body {
     letter-spacing: 4px;
     font-size: 5px;
 }
+.s7 .container{
+    background: url(../img/zhong.png);
+    width: 325px;
+    height: 410px;
+    background-size: cover;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+.s7 .container .we1 input{
+    width: 285px;
+    height: 55px;
+    margin-top: 43px;
+}
+.s7 .container .we2 input{
+    width: 285px;
+    height: 55px;
+    margin-top: 10px;
+}
+.s7 .container .we3 input{
+    width: 285px;
+    height: 55px;
+    margin-top: 10px;
+}
+.s7 .container .we4 input{
+    width: 285px;
+    height: 55px;
+    background-color: #00f2ca;
+    margin-top: 15px;
+}
+.s7 .container p{
+    color:  #00f2ca;
+}
+.s7 .container w{
+    margin-top: 10px;
+}
+
 .s7 .footer{
     animation-iteration-count: infinite;
 }  
