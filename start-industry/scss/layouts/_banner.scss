@@ -1,0 +1,56 @@
+/* 焦点图
+制作团队：杨瑞川、常大伟、郝义峥、王海涛、李晨光、于彬
+*/
+.banner{
+  background: url("../images/banner_02.gif");
+  background-size:100% 100%;
+  color: #fff;
+  padding-top: 301px;
+  padding-bottom: 92px;
+  box-sizing: border-box;
+}
+.banner .row{
+  h1{
+    font-family:Arial;
+    font-size:38px;
+    font-weight:bold;
+  }
+  p{
+    margin-top: 26px;
+    font-family:Arial;
+    font-size: 18px;
+  }
+}
+@media (max-width:960px) {
+  .banner{
+    padding-top: 150px !important;
+    padding-bottom: 25px !important;
+    .row{
+      padding-left: 12px;
+    }
+    h1{
+      font-size:30px !important;
+    }
+    p{
+      margin-top: 12px !important;
+      font-size: 14px !important;
+    }
+  }
+}
+
+@media (max-width:720px) {
+  .banner{
+    padding-top: 100px;
+    padding-bottom: 25px;
+    .row{
+      padding-left: 12px;
+    }
+    h1{
+      font-size:24px !important;
+    }
+    p{
+      margin-top: 12px !important;
+      font-size: 10px !important;
+    }
+  }
+}

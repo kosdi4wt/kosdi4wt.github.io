@@ -1,0 +1,40 @@
+/* 网站头部
+制作团队：佟潇颖、郭志伟、刘晓虎、石硕、李志国
+*/
+header{
+  .navbar-default{
+    background: #fff;
+    border: 0px;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .navbar-header img{
+      width: 100%;
+    }
+    .nav>li {
+      padding-left:5px;
+      padding-right:5px;
+    }
+    .navbar-nav>li>a{
+      border: 1px solid #fff;
+      &.active,
+      &:hover{
+        border: 1px solid #e48907;
+        color: #e48907;
+      }
+      &:active{
+        background: none;
+        border: 1px solid #fff;
+      }
+      .dropdown:focus{
+        background: none;
+      }
+    }
+  }
+}
+@media (max-width:1200px) {
+  .nav>li>a{
+    padding:10px 5px;
+  }
+}
+

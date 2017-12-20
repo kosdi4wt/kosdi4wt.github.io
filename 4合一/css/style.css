@@ -1,0 +1,433 @@
+/*通用样式*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+}
+.clearfix:before,
+.clearfix:after{
+    content:" ";
+    display:table;
+    clear:both;
+    }
+h1{
+    font-size: 36px;
+    font-weight: 400;
+}
+.p1{
+    font-size:14px; 
+    padding: 6px;
+}
+body{
+    background: #000;
+}
+main .main1 .main1-containt,main .main1 .main1-containt .comg,main .main1 .main1-containt .comg .cube,main .main1 .main1-containt .comg .comg-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+main .main1 .main1-containt .comg .comg-text,main .main2 .text2,main .main3 .text2{
+    text-align: center;
+    color: #fff;
+}
+.text2{
+    padding: 90px;
+}
+/*通用样式*/
+/*header样式*/
+header{
+    background: url(../images/bg1.jpg) no-repeat center;
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+header .header-center{
+    padding: 100px 0px 100px 0px;
+}
+header p:nth-of-type(1){
+    text-align: center;
+    padding: 20px;
+}
+header p:nth-of-type(2){
+    text-align: center;
+    padding: 20px;
+}
+header .text{
+    height: 72px;
+    position: relative;
+    margin: 0 auto;
+}
+header .text div{
+    position: absolute;
+}
+header .text div:nth-of-type(1){
+    background: url(../images/text_left.png) no-repeat;
+    width: 200px;
+    height: 72px;
+    left: 0;
+}
+header .text div:nth-of-type(2){
+    background: url(../images/text_right.png) no-repeat;
+    width: 200px;
+    height: 72px;
+    right: 0;
+}
+header .header-center .btn{
+    margin: 0 auto;
+    width: 240px;
+}
+header .header-center .btn div{
+    float: left;
+    margin: 10px;
+}
+header .header-center .btn a{
+    line-height: 40px;
+}
+header .header-center .btn div:nth-of-type(1){
+    width: 100px;
+    height: 40px;
+    background: #08b573;
+}
+header .header-center .btn div:nth-of-type(2){
+    width: 100px;
+    height: 40px;
+    background: #08b573;
+    animation: tcolor 3s infinite linear;
+}
+@keyframes tcolor{
+     0%{
+        background-color: #84050e;
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: #08b573;
+    }
+}
+@keyframes shark {
+    0%{
+        margin:0;
+    }
+    10%{
+        margin:-30px 0 0 -30px;
+    }
+    20%{
+        margin:-30px -30px 0 0;
+    }
+    30%{
+        margin:0 -30px -30px 0;
+    }
+    40%{
+        margin: 0 0 -30px -30px;
+    }
+    50%{
+        margin: 0 0 -30px -30px;
+    }
+    60%{
+        margin:-10px 0 0 -10px;
+    }
+    70%{
+        margin:-10px -10px 0 0;
+    }
+    80%{
+        margin:0 -10px -10px 0;
+    }
+    90%{
+        margin: 0 0 -10px -10px;
+    }
+
+}
+html{
+    overflow-x: hidden;
+}
+/*header样式*/
+/*main1样式*/
+main{
+    
+}
+main .main1{
+    background: #000;
+    width: 100%;
+}
+main .main1 .text2{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+main .lene{
+    width: 79px;
+    height: 5px;
+    background: #fff;
+    margin: 10px auto;
+}
+main .main1 .main1-containt .comg{
+    background: url(..//images/circle.jpg);
+    width: 700px;
+    height: 548px;
+    position: relative;
+}
+main .main1 .main1-containt .comg .cube{
+     transform: rotateZ(0deg) rotateY(0deg) rotateX(0deg);
+    transform-style:preserve-3d ;
+    font-weight: both;
+    font-size: 50px;
+    text-align: center;
+    color: #19decd;
+    animation: cube 10s infinite linear;
+}
+main .main1 .main1-containt .comg .cube div{
+    width: 80px;
+    height: 80px;
+    border: 3px solid #19decd;
+    box-shadow: 0 0 80px #19decd;
+    position: absolute;
+}
+main .main1 .main1-containt .comg .cube div:nth-of-type(1){
+    -webkit-transform: translateY(40px) rotateX(90deg);
+    -ms-transform: translateY(40px) rotateX(90deg);
+    -o-transform: translateY(40px) rotateX(90deg);
+    transform: translateY(40px) rotateX(90deg);
+}
+main .main1 .main1-containt .comg .cube div:nth-of-type(2){
+    -webkit-transform: translateY(-40px) rotateX(90deg);
+    -ms-transform: translateY(-40px) rotateX(90deg);
+    -o-transform: translateY(-40px) rotateX(90deg);
+    transform: translateY(-40px) rotateX(90deg);
+}
+main .main1 .main1-containt .comg .cube div:nth-of-type(3){
+    -webkit-transform: translateX(40px) rotateY(90deg);
+    -ms-transform: translateX(40px) rotateY(90deg);
+    -o-transform: translateX(40px) rotateY(90deg);
+    transform: translateX(40px) rotateY(90deg);
+}
+main .main1 .main1-containt .comg .cube div:nth-of-type(4){
+    -webkit-transform: translateX(-40px) rotateY(90deg);
+    -ms-transform: translateX(-40px) rotateY(90deg);
+    -o-transform: translateX(-40px) rotateY(90deg);
+    transform: translateX(-40px) rotateY(90deg);
+}
+main .main1 .main1-containt .comg .cube div:nth-of-type(5){
+    -webkit-transform: translateZ(40px);
+    -ms-transform: translateZ(40px);
+    -o-transform: translateZ(40px);
+    transform: translateZ(40px);
+}
+main .main1 .main1-containt .comg .cube div:nth-of-type(6){
+    -webkit-transform: translateZ(-40px);
+    -ms-transform: translateZ(-40px);
+    -o-transform: translateZ(-40px);
+    transform: translateZ(-40px);
+}
+@keyframes cube {
+    100%{
+        transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+    }
+}
+main .main1 .main1-containt .comg .comg-text{}
+main .main1 .main1-containt .comg .comg-text div{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 7px;
+}
+.p2{
+    font-size: 20px;
+    font-weight:900;
+}
+main .main1 .main1-containt .comg .comg-text div:nth-of-type(1){
+    top: 9px;
+    width: 147px;
+    height: 100px;
+}
+main .main1 .main1-containt .comg .comg-text div:nth-of-type(2){
+    top: 192px;
+    left: 84px;
+    width: 132px;
+    height: 100px;
+}
+main .main1 .main1-containt .comg .comg-text div:nth-of-type(3){
+    top: 357px;
+    left: 119px;
+    width: 100px;
+    height: 117px;
+}
+main .main1 .main1-containt .comg .comg-text div:nth-of-type(4){
+    top: 451px;
+    width: 100px;
+    height: 80px;
+}
+main .main1 .main1-containt .comg .comg-text div:nth-of-type(5){
+    top: 357px;
+    right: 113px;
+    width: 104px;
+    height: 114px;
+}
+main .main1 .main1-containt .comg .comg-text div:nth-of-type(6){
+    top: 194px;
+    right: 118px;
+    width: 100px;
+    height: 80px;
+}
+/*main1样式*/
+/*main2样式*/
+main .main2{
+    height: 1978px;
+}
+main .main2 .anli{
+    overflow-x: hidden;
+}
+main .main2 .anli ul{
+    width: 1080px;
+    list-style: none;
+    margin: auto;
+    transform-style: preserve-3d;
+    transform: rotateX(45deg) rotateZ(45deg) translateX(-340px);
+}
+main .main2 .anli ul li{
+    float: left;
+    position: relative;
+    width: 330px;
+    height: 230px;
+    float: left;
+    margin: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+}
+main .main2 .anli ul li div,main .main2 .anli ul li img{
+    width: 330px;
+    height: 230px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+     transition: 0.5s;
+}
+main .main2 .anli ul li:hover img{
+    -webkit-transform: translateZ(100px);
+    -ms-transform: translateZ(100px);
+    -o-transform: translateZ(100px);
+    transform: translateZ(100px);
+    transition: 0.5s;
+    z-index: 1000;
+}
+main .main2 .anli ul li:hover div:nth-of-type(1){
+    -webkit-transform: translateZ(60px);
+    -ms-transform: translateZ(60px);
+    -o-transform: translateZ(60px);
+    transform: translateZ(60px);
+    transition: 0.5s;
+    background: rgba(0, 255, 245, 0.54);
+    z-index: 888;
+}
+main .main2 .anli ul li:hover div:nth-of-type(2){
+    -webkit-transform: translateZ(25px);
+    -ms-transform: translateZ(25px);
+    -o-transform: translateZ(25px);
+    transform: translateZ(25px);
+    transition: 0.5s;
+    background: rgba(255, 0, 234, 0.54);
+    z-index: 777;
+}
+/*main2样式*/
+/*main3样式*/
+.main3-containt{
+    height: 979px;
+}
+.fImg{
+    background-image: url("../images/blackhole.png");
+    width: 800px;
+    height: 800px;
+    margin:auto;
+    animation: fImg 10s linear infinite;
+}
+@keyframes fImg {
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+.fContent{
+    width: 800px;
+    height: 800px;
+    margin:auto;
+    position: relative;
+    margin-top: -800px;
+    color: #fff;
+}.fContent>div{
+    position: absolute;
+}
+.fContent>div span{
+    font-size: 32px;
+}
+.fContent>div dl{
+
+}
+.fContent>div dl dt{
+    font-size: 18px;
+    font-weight: bold;
+}
+.fContent>div dl dd{
+    font-size:12px;
+}
+.fContent>div dl dd p{
+line-height: 1.5em;
+}
+.fContent>div:nth-of-type(1){
+    top:50%;
+    left: 170px;
+    margin-top: -47.5px;
+}
+.fContent>div:nth-of-type(2){
+    left: 50%;
+    top: 170px;
+    margin-left: -56px;
+}
+.fContent>div:nth-of-type(2) span{
+    position: absolute;
+    margin-top: -5px;
+}
+.fContent>div:nth-of-type(2) dl{
+    margin-left:40px;
+}
+.fContent>div:nth-of-type(3){
+    top: 50%;
+    right:170px;
+    margin-top: -47.5px;
+    text-align: right;
+}
+.fContent>div:nth-of-type(4){
+    bottom: 170px;
+    left:50%;
+    margin-left: -50px;
+    text-align: right;
+}
+.fContent>div:nth-of-type(4) span{
+    position: absolute;
+    right:0;
+    margin-top:-5px;
+}
+.fContent>div:nth-of-type(4) dl{
+    margin-right: 40px;
+}
+.baoming{
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+}
+.baoming a{
+    background-color: #02472d;
+    color: #ffffff;
+    padding:10px 15px;
+    text-decoration: none;
+    animation: tcolor 3s infinite linear;
+}
+/*main3样式*/

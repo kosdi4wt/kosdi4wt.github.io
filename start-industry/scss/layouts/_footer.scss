@@ -1,0 +1,90 @@
+/* 网站底部
+制作团队：王鑫、乔艳秀、刘梦桃、王志森、敖志强、李永森
+*/
+footer{
+  .footer-top{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #1b1b1b;
+    color:#8d9494;
+    h3{
+      font-size: 18px;
+      color:#fff;
+    }
+    ul{
+      list-style: none;
+      padding: 0;
+      margin:0;
+    }
+    li{
+      margin-bottom:8px;
+    }
+    a{
+      color:#8d9494;
+    }
+    .Idustry{
+      margin-bottom: 0px;
+    }
+    .JC{
+      margin-bottom: 20px;
+    }
+    i{
+      margin-right: 10px;
+    }
+  }
+  .footer-bottom{
+    color:#fff;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background: #191919;
+    p{
+      float: left;
+    }
+    ul{
+      padding: 0px;
+      margin:0px;
+      list-style: none;
+      float: right;
+    }
+    li{
+      float: left;
+    }
+    a{
+      color:#fff;
+      padding-left: 7px;
+      padding-right: 7px;
+      transition: 0.3s;
+      &:hover{
+        text-decoration: none;
+        color:#807e7e;
+      }
+    }
+  }
+}
+@media screen and (max-width: 480px){
+  footer{
+    text-align: center;
+    .footer-top{
+      .Lorem{
+        padding-right: 0px;
+      }
+    }
+    .footer-bottom{
+      p,ul{
+        float: none;
+      }
+      ul{
+        width:126px;
+        margin: 0 auto;
+        &:after{
+          display: table;
+          clear: both;
+          content: "";
+        }
+      }
+    }
+    .mgb50{
+      margin-bottom: 50px;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+/*! 盛邦升华 - start-industry */
+
+// common
+@import "common/variables";//变量
+@import "common/global";//全局
+
+// layouts 布局
+@import "layouts/_header";//导航
+@import "layouts/banner";//焦点
+@import "layouts/_main";//内容
+@import "layouts/team";//更多
+@import "layouts/footer";//底部
+
+// diy 自定义
+@import "style";//样式

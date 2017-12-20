@@ -1,0 +1,39 @@
+/* 产品介绍
+制作团队：武鹏真、姜斯馨、张涛、毛可强、师万雨
+*/
+main{
+  p{
+    font-size: 14px;
+  }
+  .products{
+    margin-bottom: 62px;
+    h2{
+      font-size: 30px;
+      margin-top: 60px;
+      margin-bottom: 30px;
+    }
+  }
+  .sideber{
+    text-align: center;
+    border: 1px #d4d4d4 solid;
+    padding:22px 16px;
+    margin-bottom: 36px;
+    h3{
+      color: #333333;
+      font-size: 20px;
+    }
+    p{
+      color: #656565;
+    }
+    a{
+      color: #0c1f88;
+      display: inline-block;
+    }
+    i{
+      margin-top: 50px;
+      margin-bottom: 32px;
+      color: #e48907;
+      font-size: 73px;
+    }
+  }
+}
