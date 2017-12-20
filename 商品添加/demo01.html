@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <div id="app">
+      <input type="text" v-model="fruit"><button v-on:click="fun1()">添加</button>
+      <ul>
+          <li v-for="(aa,cc) in fruits" v-on:click="deleteFruit(cc)">第{{cc}}个水果是{{aa}}</li>
+      </ul>
+      
+   </div>
+    <script src="vue.js"></script>
+    <script>
+    new Vue({
+        el:"#app",
+        data:{
+            fruit:"苹果",
+            fruits:["橙子","草莓"]
+        },
+        methods:{
+            fun1(){
+               this.fruits.push(this.fruit); 
+                this.fruit="";
+            },
+            deleteFruit(hh){
+            this.fruits.splice(hh,1);
+        }
+        }
+    
+    });
+    </script>
+</body>
+</html>

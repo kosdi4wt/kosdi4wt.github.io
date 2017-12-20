@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>显示和隐藏</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- CSS -->
+    <style>
+        .warper {
+            text-align: center;
+        }
+        
+        input {
+            line-height: 30px;
+            width: 300px;
+        }
+        
+        button {
+            padding: 7px 15px;
+            background-color: deepskyblue;
+        }
+        
+        table {
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+        
+        td {
+            border: 1px solid #3d3d3d;
+            padding: 10px 48px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="warper">
+        <h1>添加用户</h1>
+        <div>
+            <label>姓名：</label>
+            <input v-model="newuser.name" type="text" placeholder="请输入用户名">
+            <p></p>
+        </div>
+        <div>
+            <label>年龄：</label>
+            <input v-model="newuser.age" type="text" placeholder="请输入年龄">
+            <p></p>
+        </div>
+        <div>
+            <label>邮箱：</label>
+            <input v-model="newuser.email" type="text" placeholder="请输入邮箱">
+            <p></p>
+        </div>
+        <button v-on:click="fun3()">添加</button>
+        <button v-on:click="fun4()">重置</button>
+        <hr>
+        <h1>用户列表</h1>
+        <table>
+            <tr>
+                <td>序号</td>
+                <td>姓名</td>
+                <td>年龄</td>
+                <td>邮箱</td>
+                <td>操作</td>
+            </tr>
+            <tr v-for="(user,index) in users">
+                <td>{{index+1}}</td>
+                <td>{{user.name}}</td>
+                <td>{{user.age}}</td>
+                <td>{{user.email}}</td>
+                <td>
+                    <button v-on:click="fun1(index)">删除</button>
+                </td>
+            </tr>
+        </table>
+        <div style="float:right; margin-right:170px; margin-top:20px">
+            <button v-on:click="fun2(b)">删除全部</button>
+        </div>
+    </div>
+    <script src="vue.js"></script>
+    <script>
+        new Vue({
+            el: ".warper"
+            , data: {
+                newuser: {}
+                , users: [{
+                    name: "ABC、"
+                    , age: 2
+                    , email: "zhangg@qq.com"
+                }, {
+                    name: "丸子、"
+                    , age: 28
+                    , email: "zg@qq.com"
+                }]
+            }
+            , methods: {
+                fun1(a) {
+                    this.users.splice(a, 1);
+                }, fun2(b) {
+                    this.users.splice(b);
+                }, fun3() {
+                    var obj = {};
+                        for (var i in this.newuser) {
+                            obj[i] = this.newuser[i];
+                        }
+                    this.users.push(obj);
+                },fun4(){
+                   this.newuser={};
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
